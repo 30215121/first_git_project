@@ -3,12 +3,13 @@
     *Pushingthe code FOR THE FIRST TIME
     git init -> create .git folder in the project. do once for each project
     git add . -> add all of teh code
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/30215121/first_git_project.git
-    git push -u origin main
+    git commit -m "first commit" -> creates a new version
+    git branch -M main  -> creating a main branch
+    git remote add origin https://github.com/30215121/first_git_project.git -> linking local repo and remote repo.
+    git push -u origin main -> sending the code to that link
 
     *** Pushingthe code FOR THE SECOND TIME
-
+    - add a new code : Notes
    git add .
-   git commit -m "first commit"
+   git commit -m "message"
+   git push
