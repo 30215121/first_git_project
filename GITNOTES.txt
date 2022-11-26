@@ -13,3 +13,7 @@
    git add .
    git commit -m "message"
    git push
+-------------------------
+*** GIT PULL
+git PULL  is used to get the lastest code from github
+git fetch or git merge  these are also do same thing with git pull
