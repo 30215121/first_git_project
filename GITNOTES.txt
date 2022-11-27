@@ -54,7 +54,18 @@ but git merge will only does merging. we use use git merge after git fetch
 git pull = git fetch + git merge
 ---------------
 GIT CONFLICT?
-    - Conflict happens when we 
+    - Conflict happens when we merge the code
+
+    -Scenario
+        - add Notes7.txt with line 1 message 'Meryems code'
+        - add Notes7.txt with line 1 mesaage 'My code'  then commit then push then we got error
+        - pull the code then we got Conflict
+        - then we manually fixed the Conflict
+        - then committed and Pushed
+            - git add .
+            - git commit -m "resolve conflict"
+            - git push
+
 
 
 
